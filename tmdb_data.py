@@ -223,7 +223,7 @@ def load_movies_from_csv(file_path: str = "movies_data.csv") -> pd.DataFrame:
 
 if __name__ == "__main__":
     # 测试代码
-    movies = get_movies_batch(num_movies=100)
+    movies = get_movies_batch(num_movies=10)
     df_movies = create_movies_dataframe(movies)
     print(f"获取了 {len(df_movies)} 部电影的数据")
     print(df_movies.columns)
