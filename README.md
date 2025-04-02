@@ -15,6 +15,7 @@
 
 ```bash
 pip install requests pandas chromadb gradio
+pip install tmdbsimple
 ```
 
 ## 使用方法
